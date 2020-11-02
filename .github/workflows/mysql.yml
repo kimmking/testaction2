@@ -41,4 +41,4 @@ jobs:
           sudo systemctl restart mysql
           sudo mysql_upgrade
           mysql --version
-          mysql -hlocalhost -uroot -e "show tables from infomation_schema"
+          mysql -h127.0.0.1 -uroot -e "show tables from infomation_schema"
