@@ -44,4 +44,4 @@ jobs:
           mysql -h127.0.0.1 -uroot --version
           cat /etc/mysql/mysql.cnf
           sudo cat /etc/mysql/debian.cnf
-          mysql -h127.0.0.1 -uroot -e "show tables from infomation_schema"
+          mysql -h127.0.0.1 -uroot -e "select * from infomation_schema.tables"
